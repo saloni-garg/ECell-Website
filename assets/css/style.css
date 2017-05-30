@@ -24,7 +24,15 @@ h1, h2 {
     line-height: 50px;
     font-style: italic;
 }
+.weareentre{
+	color: white;
+	opacity: 0.8;
+}
 
+.welcometoecell{
+	opacity: 0.7;
+	font-style: italic;
+}
 h3 {
 	font-size: 22px;
     font-weight: 300;
