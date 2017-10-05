@@ -53,8 +53,12 @@ jQuery(document).ready(function() {
 	});
 	$('.contact-form form').submit(function(e) {
 		e.preventDefault();
-	    $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('input-error');
-	    var postdata = $('.contact-form form').serialize();
+		$('#contact-submit').html('SENDING....').attr('disabled', true);
+		$('.contact-form form input[type="text"], .contact-form form textarea').removeClass('input-error');
+		var email = $('#contact-email').val();
+		var subject = $('#contact-subject').val();
+		var message = $('#contact-message').val();
+		var postdata = {email: email, subject: subject, message: message};
 	    $.ajax({
 	        type: 'POST',
 	        url: 'assets/contact.php',
@@ -72,11 +76,16 @@ jQuery(document).ready(function() {
 	            }
 	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
 	                $('.contact-form form').fadeOut('fast', function() {
-	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
+						if (json.mailSent === true) {
+							$('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
+						}
+						else {
+							$('.contact-form').append('<p>Something went wrong. Please try contacting us later.</p>');							
+						}
 	                });
 	            }
 	        }
-	    });
+		});
 	});
 	
 });
