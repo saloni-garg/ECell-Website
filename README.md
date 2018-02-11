@@ -10,4 +10,4 @@ Is is developed and being maintained by me, and I would love to see some great W
 
 Visit the website here --> https://ecell.lnmiit.ac.in
 
-Thanks :)
+Thanks for your time.:)
