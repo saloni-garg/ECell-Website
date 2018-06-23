@@ -620,3 +620,6 @@ footer h3 {
 }
 
 .footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
+.eventshosted-container {
+	background-color: #454545;
+}
