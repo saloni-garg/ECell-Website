@@ -623,3 +623,7 @@ footer h3 {
 .eventshosted-container {
 	background-color: #454545;
 }
+
+.fa-facebook, .fa-linkedin{
+	color: #85929E;
+}
