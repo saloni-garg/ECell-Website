@@ -643,3 +643,15 @@ footer h3 {
 	width: 1000px;
 	height: 500px;
 }
+
+.card-img-top {
+	width: 300px;
+	height: 250px;
+}
+.card {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.card-title {
+	font-weight: bold;
+}
