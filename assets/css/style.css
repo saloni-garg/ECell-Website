@@ -259,6 +259,7 @@ ul.navbar-nav {
 }
 
 
+
 /***** Services *****/
 
 .services-box {
@@ -626,4 +627,19 @@ footer h3 {
 
 .fa-facebook, .fa-linkedin{
 	color: #85929E;
+}
+
+.events-img1,.events-img2 {
+	transition: width 2s, height 2s;
+}
+
+
+.events-img2:hover {
+	width: 450px;
+	height: 600px;
+}
+
+.events-img1:hover {
+	width: 1000px;
+	height: 500px;
 }
