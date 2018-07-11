@@ -11,7 +11,7 @@ body {
 strong { font-weight: 600; }
 
 a, a:hover, a:focus {
-	color: #ff8a38;
+	color: #808080;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -48,10 +48,10 @@ img { max-width: 100%; }
 	line-height: 32px;
 }
 
-.colored-text { color: #ff8a38; }
+.colored-text { color: #808080; }
 
-::-moz-selection { background: #ff8a38; color: #fff; text-shadow: none; }
-::selection { background: #ff8a38; color: #fff; text-shadow: none; }
+::-moz-selection { background: #808080; color: #fff; text-shadow: none; }
+::selection { background: #808080; color: #fff; text-shadow: none; }
 
 
 /***** Loader *****/
@@ -272,14 +272,14 @@ ul.navbar-nav {
 	height: 80px;
 	margin: 0 auto;
 	
-	background: #ff8a38; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	background: #808080; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #808080 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(100%,#808080)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#808080 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#808080',GradientType=0 ); /* IE6-9 */
 
     font-size: 40px;
     color: #fff;
@@ -350,14 +350,14 @@ ul.navbar-nav {
 	height: 60px;
 	margin: 0 auto;
 	
-	background: #ff8a38; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	background: #808080; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #808080 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(100%,#808080)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#808080 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#808080',GradientType=0 ); /* IE6-9 */
 	
     font-size: 32px;
     color: #fff;
@@ -402,7 +402,7 @@ ul.navbar-nav {
 	margin-top: 30px;
 }
 .portfolio-box h3 a { color: #555; }
-.portfolio-box h3 a:hover, .portfolio-box h3 a:focus { color: #ff8a38; }
+.portfolio-box h3 a:hover, .portfolio-box h3 a:focus { color: #808080; }
 
 .portfolio-box h3 i {
 	padding-left: 10px;
@@ -487,14 +487,14 @@ ul.navbar-nav {
 
 .testimonial-list .nav-tabs li.active a,
 .testimonial-list .nav-tabs li.active a:focus {
-	background: #ff8a38; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 ); /* IE6-9 */
+	background: #808080; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #808080 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(100%,#808080)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#808080 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#808080 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#808080',GradientType=0 ); /* IE6-9 */
 	
 	border: 0;
 }
@@ -524,7 +524,7 @@ ul.navbar-nav {
 	margin-top: 0;
 }
 .blog-box h3 a { color: #555; }
-.blog-box h3 a:hover, .blog-box h3 a:focus { color: #ff8a38; }
+.blog-box h3 a:hover, .blog-box h3 a:focus { color: #808080; }
 
 .blog-box h3 i {
 	padding-left: 10px;
@@ -572,7 +572,7 @@ footer h3 {
 }
 
 .contact-form .input-error {
-	border-color: #ff8a38;
+	border-color: #808080;
 }
 
 .footer-social {
@@ -651,7 +651,4 @@ footer h3 {
 .card {
 	padding-left: 10px;
 	padding-right: 10px;
-}
-.card-title {
-	font-weight: bold;
 }
